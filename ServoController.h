@@ -25,6 +25,7 @@ private:
     bool timer();
     bool timerDelay(unsigned long val);
 public:
+    ServoController();
     ServoController(int spd, int min, int max);
     void setSpd(int spd);
     void setMin(int min);

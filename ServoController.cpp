@@ -14,6 +14,14 @@
 /**
  * @brief Construct a new Servo Controller:: Servo Controller object
  * 
+ */
+ServoController::ServoController(){
+
+}
+
+/**
+ * @brief Construct a new Servo Controller:: Servo Controller object
+ * 
  * @param spd angular speed of servo
  * @param min min angle limit
  * @param max max angle limit
